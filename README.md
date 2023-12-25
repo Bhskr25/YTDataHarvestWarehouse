@@ -3,6 +3,18 @@
 # YOUTUBE DATA HARVESTING AND WARE HOUSING 
 > USING MONGO_DB, MySQL AND STREAMLIT
 ---
+### Table of Content
+    1. [Project Intro/Objective](https://github.com/Bhskr25/YTDataHarvestWarehouse#project-introobjective)
+    2. [Methods Used](https://github.com/Bhskr25/YTDataHarvestWarehouse#methods-used)
+    3. [Technologies](https://github.com/Bhskr25/YTDataHarvestWarehouse#technologies)
+    4. [Project Description](https://github.com/Bhskr25/YTDataHarvestWarehouse#project-description)
+    5. [Prerequests and Needs](https://github.com/Bhskr25/YTDataHarvestWarehouse#prerequests-and-needs)
+    6. [Getting Started](https://github.com/Bhskr25/YTDataHarvestWarehouse#getting-started)
+    7. [Conclusion](https://github.com/Bhskr25/YTDataHarvestWarehouse#conclusion)
+    
+    
+
+---
 ## Project Intro/Objective
 The purpose of this project is to collect, store, and analyze data from YouTube channels using the YouTube Data API. The project involves data harvesting from YouTube, warehousing the collected data in both MongoDB and MySQL databases, and presenting the information through an interactive Streamlit web application.
 > The goal is to enable users to explore and analyze the channel details, videos, and comments, providing insights into YouTube content and engagement metrics.
@@ -19,16 +31,23 @@ The purpose of this project is to collect, store, and analyze data from YouTube 
 * MongoDB
 * MySql
 * Pandas
-* Strealit
+* Streamlit
 ---
 ## Project Description
 This project leverages the YouTube Data API to harvest data from channels, videos, and comments. The collected information is stored in MongoDB and PostgreSQL databases, facilitating efficient data management. An interactive Streamlit web application enables users to explore and analyze YouTube content easily. The project is structured with modular functions for data harvesting, warehousing, and user interaction, providing a seamless experience.
-Users can input channel IDs, visualize tables, and perform SQL queries for analysis, making it a versatile tool for understanding YouTube channel metrics.
-- Users can input channel IDs 
-- Visualize tables
-  <p><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/5c64398d-103f-49a1-9124-383d73fdecc1'></p>
-- Perform SQL queries for analysis
-  <p><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/e20ec374-8d95-42a7-b0e3-aa08251df619'</p>
+
+### Project Wrokflow
+<p align='center'><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/3f15a9b4-cf73-482b-8f64-840fb1c53305' width='auto'></p>
+
+#### Users can input channel IDs
+  <p><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/25522977-62ef-484f-b6fa-87e94d01f940' width='auto'></p>
+  
+#### Visualize tables
+  <p><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/5c64398d-103f-49a1-9124-383d73fdecc1' width='auto'></p>
+  
+#### Perform SQL queries for analysis
+  <p><img src='https://github.com/Bhskr25/YTDataHarvestWarehouse/assets/95600191/e20ec374-8d95-42a7-b0e3-aa08251df619' width='auto'></p>
+  
 ####
 ---
 
@@ -100,3 +119,25 @@ The needs of this project can be categorized into several key aspects. Here is a
     streamlit run <python_file>.py
     ```
 ---
+
+## Conclusion
+
+Thank you for exploring our YouTube Data Harvesting and Warehousing project! Hope this tool proves valuable for data analysis needs.
+
+### Contributing
+
+If you'd like to contribute to this project, please follow the [Contribution Guidelines](CONTRIBUTING.md).
+
+### Acknowledgments
+
+A big thank you to all contributors who helped improve and refine this project.
+
+### Contact
+
+For any questions or suggestions, feel free to reach me out at [pranaybhskr@gmail.com].
+
+Happy analyzing!
+
+---
+
+Feel free to customize this template based on your project's specific details and requirements.
