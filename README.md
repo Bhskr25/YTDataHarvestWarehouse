@@ -3,21 +3,11 @@
 # YOUTUBE DATA HARVESTING AND WARE HOUSING 
 > USING MONGO_DB, MySQL AND STREAMLIT
 ---
-### Table of Content
-    1. [Project Intro/Objective](https://github.com/Bhskr25/YTDataHarvestWarehouse#project-introobjective)
-    2. [Methods Used](https://github.com/Bhskr25/YTDataHarvestWarehouse#methods-used)
-    3. [Technologies](https://github.com/Bhskr25/YTDataHarvestWarehouse#technologies)
-    4. [Project Description](https://github.com/Bhskr25/YTDataHarvestWarehouse#project-description)
-    5. [Prerequests and Needs](https://github.com/Bhskr25/YTDataHarvestWarehouse#prerequests-and-needs)
-    6. [Getting Started](https://github.com/Bhskr25/YTDataHarvestWarehouse#getting-started)
-    7. [Conclusion](https://github.com/Bhskr25/YTDataHarvestWarehouse#conclusion)
-    
-    
-
----
 ## Project Intro/Objective
+
 The purpose of this project is to collect, store, and analyze data from YouTube channels using the YouTube Data API. The project involves data harvesting from YouTube, warehousing the collected data in both MongoDB and MySQL databases, and presenting the information through an interactive Streamlit web application.
 > The goal is to enable users to explore and analyze the channel details, videos, and comments, providing insights into YouTube content and engagement metrics.
+
 ---
 ### Methods Used
 * API-Integration (YouTube Data API)
