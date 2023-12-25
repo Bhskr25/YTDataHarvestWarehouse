@@ -114,14 +114,6 @@ The needs of this project can be categorized into several key aspects. Here is a
 
 Thank you for exploring our YouTube Data Harvesting and Warehousing project! Hope this tool proves valuable for data analysis needs.
 
-### Contributing
-
-If you'd like to contribute to this project, please follow the [Contribution Guidelines](CONTRIBUTING.md).
-
-### Acknowledgments
-
-A big thank you to all contributors who helped improve and refine this project.
-
 ### Contact
 
 For any questions or suggestions, feel free to reach me out at [pranaybhskr@gmail.com].
