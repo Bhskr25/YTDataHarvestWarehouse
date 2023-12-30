@@ -14,7 +14,7 @@ _='''===========================================================================
 ============================================================================================================'''
 
 def api_connect():
-    api_id = "AIzaSyDo2e9YbzLOCWFuwGwe2oCkBfusGt1Aqy8"
+    api_id = "YOUR-API-KEY"
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=api_id)
@@ -125,7 +125,7 @@ _='''===========================================================================
 
 # Create new client and Connect to server
 client = pymongo.MongoClient(
-    'mongodb+srv://pranay:pranay25@cluster0.x4wd2rx.mongodb.net/?retryWrites=true&w=majority')
+    'mongodb+srv://<user>:<password>@cluster0.x4wd2rx.mongodb.net/?retryWrites=true&w=majority')
 db = client['Youtube_Data']             # Create client Database     <-- "Youtube_Data" -->
 collection = db['Channel_Details']      # Create Database Collection <-- "Channel_Details" -->
 
@@ -152,8 +152,8 @@ _='''===========================================================================
 
 def channels_table():
     youtube_db = pymysql.connect(host='localhost',
-                                 user='root',
-                                 password='Pranay@25',
+                                 user='<user>',
+                                 password='<password>',
                                  database='youtube_data')
     cursor = youtube_db.cursor()
 
@@ -214,8 +214,8 @@ def channels_table():
 
 def videos_table():
     youtube_db = pymysql.connect(host='localhost',
-                                 user='root',
-                                 password='Pranay@25',
+                                 user='<user>',
+                                 password='<password',
                                  database='youtube_data')
     cursor = youtube_db.cursor()
 
@@ -310,8 +310,8 @@ def videos_table():
 
 def comments_table():
     youtube_db = pymysql.connect(host='localhost',
-                                 user='root',
-                                 password='Pranay@25',
+                                 user='<user>',
+                                 password='<password',
                                  database='youtube_data')
     cursor = youtube_db.cursor()
 
@@ -505,8 +505,8 @@ def main():
                             placeholder="Select any query to view the result")
 
         youtube_db = pymysql.connect(host='localhost',
-                                    user='root',
-                                    password='Pranay@25',
+                                    user='<user',
+                                    password='<password>',
                                     database='youtube_data')
         cursor = youtube_db.cursor()
         # <--- Quries To Analyse The Data ------------------------------------------------------------------------>
